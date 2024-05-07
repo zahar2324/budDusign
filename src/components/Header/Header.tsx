@@ -3,6 +3,13 @@ import "./Header.scss";
 import Globe from "../../icons/GlobeIcon";
 
 const Header = () => {
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth" // Додає плавність прокрутки
+    });
+  };
+  
   return (
     <div className="Header">
       <Link to="/">
@@ -21,7 +28,7 @@ const Header = () => {
         <Link to="/outsourcing">Аутсорсинг</Link>
         <Link to="/houses">Будинки</Link>
         <Link to="/recyclables">Вторсировина</Link>
-        <Link to="/gellery">Галерея</Link>
+        <Link to="/gellery">Галерея </Link>
         <Link to="/about" className="dropdown">
       
           Про нас
@@ -38,7 +45,7 @@ const Header = () => {
 
       
         
-        <Link to="/contacts">Контакты</Link>
+        <Link to="#"  onClick={scrollToBottom}>Контакты</Link>
         <button className="HeaderLanguage">
           <Globe></Globe>
           <span>UA</span>
