@@ -17,8 +17,12 @@
   }
   
   .our-projects__items {
-    display: flex;
     gap: 100px;
+
+    display: flex;
+   &-container{
+
+   }
   }
   
   @media (max-width: 62.5rem) {

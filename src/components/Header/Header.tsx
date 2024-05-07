@@ -21,7 +21,7 @@ const Header = () => {
         <Link to="/outsourcing">Аутсорсинг</Link>
         <Link to="/houses">Будинки</Link>
         <Link to="/recyclables">Вторсировина</Link>
-  
+        <Link to="/gellery">Галерея</Link>
         <Link to="/about" className="dropdown">
       
           Про нас
