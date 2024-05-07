@@ -6,7 +6,7 @@ const Header = () => {
   const scrollToBottom = () => {
     window.scrollTo({
       top: document.documentElement.scrollHeight,
-      behavior: "smooth" // Додає плавність прокрутки
+      behavior: "smooth" 
     });
   };
   
