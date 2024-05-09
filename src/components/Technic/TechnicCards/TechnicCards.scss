@@ -295,3 +295,51 @@
     display: flex;
     justify-content: center;
   }
+
+
+
+  @media (max-width:2238px) {
+    .container_technicsCards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 100px 130px;
+    }
+  }
+  @media (max-width:1458px) {
+    .container_technicsCards {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 100px 130px;
+    }
+  }
+  @media (max-width:698px) {
+    .AboutTechniqueImg {
+      position: relative;
+      width: 480px;
+      height: 279px;
+    }
+  }
+  @media (max-width:498px) {
+    .AboutTechniqueImg {
+      position: relative;
+      width: 383px;
+      height: 223px;
+    }
+    .AboutTechniqueImgText {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: rgb(255, 255, 255);
+      padding: 4px;
+    }
+    .AboutTechniqueImgTitle {
+      font-size: 21px;
+      margin: 0;
+    }
+    .AboutTechniqueImgDescription {
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 16px;
+      color: #c5a47e;
+    }
+  }

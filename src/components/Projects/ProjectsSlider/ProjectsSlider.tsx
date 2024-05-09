@@ -57,7 +57,7 @@ const ProjectsSlider: React.FC = () => {
               </div>
            
           </div>
-            <div className="projects-slider__content-main projects-slider__content-main-1">
+            <div className="projects-slider__content-main projects-slider__content-main-2">
               <h2 className="projects-slider__content-title">
                 Чиста гармонія між простором і функцією
               </h2>

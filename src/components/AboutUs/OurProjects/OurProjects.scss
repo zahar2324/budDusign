@@ -18,10 +18,11 @@
   
   .our-projects__items {
     gap: 100px;
-
+    max-width: 1200px;
     display: flex;
    &-container{
-
+      display: flex;
+      justify-content: center;
    }
   }
   

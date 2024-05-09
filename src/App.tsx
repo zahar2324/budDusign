@@ -48,7 +48,7 @@ function App() {
           <Route path="/about" Component={AboutUs}></Route>
           <Route path="/projects" Component={Projects}></Route>
           <Route path="/technique/types" Component={(props) => <TechnicCardsTypes {...props}  technics={technics}/>} />
-          <Route path="/gellery" Component={Gellery}></Route>
+          <Route path="/gallery" Component={Gellery}></Route>
         </Routes>
         <Reasons/>
         <Footer/>
